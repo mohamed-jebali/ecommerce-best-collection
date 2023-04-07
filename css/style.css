@@ -23,16 +23,10 @@
 .margin-auto{
     margin: 0 auto;
 }
-header{
-    margin-bottom: 40px;
-    background-color: #4b4b4b;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
-}
 ul.nav-bar li{
     list-style-type: none;
     text-decoration: none;
     color: white;
-    margin-right: 15px;
 }
 li>a{
     text-decoration: none;
@@ -51,23 +45,31 @@ h1{
 h2{
     text-align: center;
 }
-.header-upper{
+header{
+    background-color: #4b4b4b;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div.header-upper{
     padding: 30px 0;
     width: 70%;
-    max-width: 1200px;
     height: 80px;
 }
 .header-upper>nav{
-    width: 15%;
+    width: 20%;
 }
 .header-upper>h1{
-    width: 75%;
+    width: 60%;
 }
 .header-upper>.icons{
-    width: 10%;
+    width: 20%;
+    text-align: right;
 }
 .card-wrapper{
-    width: 70%
+    width: 70%;
+    margin-top: 100px;
 }
 .card{
     width: 23%;
