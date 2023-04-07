@@ -32,6 +32,7 @@ ul.nav-bar li{
     list-style-type: none;
     text-decoration: none;
     color: white;
+    margin-right: 15px;
 }
 li>a{
     text-decoration: none;
@@ -57,13 +58,13 @@ h2{
     height: 80px;
 }
 .header-upper>nav{
-    width: 20%;
+    width: 15%;
 }
 .header-upper>h1{
-    width: 60%;
+    width: 75%;
 }
 .header-upper>.icons{
-    width: 20%;
+    width: 10%;
 }
 .card-wrapper{
     width: 70%
@@ -131,6 +132,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
     padding: 1.8rem 0;
+    padding-right: 25px;
 }
 .social-icon{
     height: 20px;
